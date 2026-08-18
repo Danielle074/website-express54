@@ -11,39 +11,6 @@ const routes = [
         name: 'home',
         component: () => import('@/views/Home.vue'),
       },
-      // Routes pour les sections (redirigent vers / avec ancres)
-      {
-        path: 'fonctionnalites',
-        redirect: '/#fonctionnalites',
-      },
-      {
-        path: 'comment-ca-marche',
-        redirect: '/#comment-ca-marche',
-      },
-      {
-        path: 'services',
-        redirect: '/#services',
-      },
-      {
-        path: 'avis',
-        redirect: '/#avis',
-      },
-      {
-        path: 'faq',
-        redirect: '/#faq',
-      },
-      {
-        path: 'mentions-legales',
-        redirect: '/#mentions-legales',
-      },
-      {
-        path: 'confidentialite',
-        redirect: '/#confidentialite',
-      },
-      {
-        path: 'contact',
-        redirect: '/#contact',
-      },
     ],
   },
   {
@@ -55,7 +22,7 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to, _from, savedPosition) {
     if (savedPosition) {
       return savedPosition
     }

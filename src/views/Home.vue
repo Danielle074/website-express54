@@ -16,7 +16,7 @@
           rel="noopener noreferrer"
           class="group inline-block rounded-2xl bg-[#ff6200] px-16 py-8 text-3xl md:text-4xl lg:text-5xl font-bold text-white shadow-2xl shadow-[#ff6200]/50 transition-all hover:bg-[#e65800] hover:shadow-3xl hover:shadow-[#ff6200]/70 hover:scale-105 active:scale-[0.95]"
         >
-          👉 Cliquez ici
+          Cliquez ici
           <ArrowRight class="inline-block h-10 w-10 ml-4 transition-transform group-hover:translate-x-2" />
         </a>
         <p class="mt-4 text-lg text-[#ff6200]/80 font-medium">
@@ -128,7 +128,6 @@ import { ref, onMounted, onBeforeUnmount } from 'vue'
 import {
   UserPlus,
   Globe2,
-  Landmark,
   FilePlus2,
   LayoutGrid,
   ListChecks,
