@@ -22,11 +22,7 @@
           <img :src="logo" alt="Express 54" class="h-8 w-auto" />
         </div>
         <p class="text-sm text-gray-500">© 2026 Express 54. Tous droits réservés.</p>
-        <div class="flex justify-center space-x-6 mt-3">
-          <router-link to="/mentions-legales" class="text-sm text-gray-500 hover:text-[#ff6200]">Mentions légales</router-link>
-          <router-link to="/confidentialite" class="text-sm text-gray-500 hover:text-[#ff6200]">Confidentialité</router-link>
-          <router-link to="/contact" class="text-sm text-gray-500 hover:text-[#ff6200]">Contact</router-link>
-        </div>
+        
       </div>
     </footer>
   </div>

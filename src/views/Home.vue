@@ -24,7 +24,7 @@
           href="https://express54.org"
           target="_blank"
           rel="noopener noreferrer"
-          class="group inline-block rounded-2xl bg-[#ff6200] px-16 py-8 text-2xl md:text-3xl lg:text-4xl font-bold text-white shadow-2xl shadow-[#ff6200]/50 transition-all hover:bg-[#e65800] hover:shadow-3xl hover:shadow-[#ff6200]/70 hover:scale-105 active:scale-[0.95]"
+          class="group inline-block rounded-2xl bg-[#FE8623] px-16 py-8 text-2xl md:text-3xl lg:text-4xl font-bold text-white shadow-2xl shadow-[#ff6200]/50 transition-all hover:bg-[#FE8623]/80 hover:shadow-3xl hover:shadow-[#FE8623]/70 hover:scale-105 active:scale-[0.95]"
         >
           Cliquez ici après lecture de la procédure pour accéder à la plateforme.
 
@@ -33,7 +33,7 @@
           />
         </a>
 
-        <p class="mt-4 text-lg text-[#ff6200]/80 font-medium">
+        <p class="mt-4 text-lg text-[#FE8623]/80 font-medium">
           Accédez directement à la plateforme Express 54
         </p>
       </div>
@@ -67,18 +67,18 @@
         <div class="reveal mx-auto max-w-3xl text-center">
 
           <span
-            class="text-sm font-semibold uppercase tracking-widest text-[#ff6200]"
+            class="text-sm font-semibold uppercase tracking-widest text-[#FE8623]"
           >
             Comment ça marche
           </span>
 
           <h2
-            class="mt-3 font-serif text-3xl font-semibold sm:text-4xl text-[#ff6200]"
+            class="mt-3 font-serif text-3xl font-semibold sm:text-4xl text-[#FE8623]"
           >
             Votre démarche, étape par étape
           </h2>
 
-          <p class="mt-4 text-[#ff6200]/80">
+          <p class="mt-4 text-[#FE8623]/80">
             De la création de votre compte jusqu'au suivi de votre dossier,
             chaque étape est claire et guidée.
           </p>
@@ -118,7 +118,7 @@
 
                   <!-- Numéro -->
                   <div
-                    class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border-2 border-dashed border-[#ff6200]/50 bg-white/10 font-serif text-lg font-semibold text-[#ff6200]"
+                    class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border-2 border-dashed border-[#FE8623]/50 bg-white/10 font-serif text-lg font-semibold text-[#FE8623]"
                   >
                     {{ step.number }}
                   </div>
@@ -126,7 +126,7 @@
 
                   <!-- Icône -->
                   <div
-                    class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-[#ff6200]/20 text-[#ff6200]"
+                    class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-[#FE8623]/20 text-[#FE8623] transition-all duration-300 hover:bg-[#FE8623]/30"
                   >
                     <component :is="step.icon" :size="22" />
                   </div>
@@ -135,14 +135,14 @@
 
 
                 <h3
-                  class="mt-4 text-2xl md:text-3xl lg:text-4xl font-semibold text-[#ff6200]"
+                  class="mt-4 text-2xl md:text-3xl lg:text-4xl font-semibold text-[#FE8623]"
                 >
                   {{ step.title }}
                 </h3>
 
 
                 <p
-                  class="mt-3 max-w-md text-base md:text-lg leading-relaxed text-[#ff6200]/70"
+                  class="mt-3 max-w-md text-base md:text-lg leading-relaxed text-[#FE8623]/70"
                   :class="index % 2 === 0 ? 'md:ml-auto' : ''"
                 >
                   {{ step.description }}
@@ -195,12 +195,12 @@
                     >
 
                       <div
-                        class="relative flex h-7 w-7 md:h-9 md:w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-[3px] border-[#ff6200] bg-white/30 shadow-md"
+                        class="relative flex h-7 w-7 md:h-9 md:w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-[3px] border-[#FE8623] bg-white/30 shadow-md"
                       >
 
                         <!-- Petit point central -->
                         <div
-                          class="h-2 w-2 md:h-2.5 md:w-2.5 rounded-full bg-[#ff6200]"
+                          class="h-2 w-2 md:h-2.5 md:w-2.5 rounded-full bg-[#FE8623]"
                         ></div>
 
                       </div>
@@ -242,7 +242,7 @@
                           >
                             <path
                               d="M0,0 L10,5 L0,10 Z"
-                              fill="#ff6200"
+                              fill="#FE8623"
                             />
                           </marker>
 
@@ -261,7 +261,7 @@
                         <!-- Flèche orange -->
                         <path
                           d="M10 95 C45 85, 80 55, 150 15"
-                          stroke="#ff6200"
+                          stroke="#FE8623"
                           stroke-width="4"
                           stroke-linecap="round"
                           :marker-end="`url(#arrow-${index})`"
@@ -276,7 +276,7 @@
                          TEXTE SUR L'IMAGE
                          ================================================= -->
                     <div
-                      class="absolute z-40 rounded-lg bg-[#ff6200] px-3 py-1.5 md:px-4 md:py-2 text-xs md:text-sm font-bold text-white shadow-lg border border-white"
+                      class="absolute z-40 rounded-lg bg-[#FE8623] px-3 py-1.5 md:px-4 md:py-2 text-xs md:text-sm font-bold text-white shadow-lg border border-white"
                       :style="{
                         top: step.label.top,
                         left: step.label.left,
@@ -305,7 +305,7 @@
             href="https://express54.org"
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center gap-2 rounded-lg bg-[#ff6200] px-8 py-4 text-base font-semibold text-white shadow-lg shadow-[#ff6200]/30 transition-all hover:bg-[#e65800] hover:shadow-xl hover:shadow-[#ff6200]/40 hover:scale-105 active:scale-[0.98]"
+            class="inline-flex items-center gap-2 rounded-lg bg-[#FE8623] px-8 py-4 text-base font-semibold text-white shadow-lg shadow-[#FE8623]/30 transition-all hover:bg-[#e65800] hover:shadow-xl hover:shadow-[#FE8623]/40 hover:scale-105 active:scale-[0.98]"
           >
 
             Commencer ma démarche
