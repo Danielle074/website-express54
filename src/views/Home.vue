@@ -19,7 +19,7 @@
           👉 Cliquez ici
           <ArrowRight class="inline-block h-10 w-10 ml-4 transition-transform group-hover:translate-x-2" />
         </a>
-        <p class="mt-4 text-lg text-white/80 font-medium">
+        <p class="mt-4 text-lg text-[#ff6200]/80 font-medium">
           Accédez directement à la plateforme Express 54
         </p>
       </div>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="relative mt-20">
-          <div class="space-y-20 md:space-y-16">
+          <div class="space-y-24 md:space-y-20">
             <div
               v-for="(step, index) in steps"
               :key="step.title"
@@ -91,7 +91,7 @@
                   index % 2 === 0 ? 'md:order-2 md:col-start-2' : 'md:order-1',
                 ]"
               >
-                <div class="relative mx-auto w-full max-w-2xl">
+                <div class="relative mx-auto w-full max-w-4xl">
                   <div
                     class="overflow-hidden rounded-2xl border border-white/20 shadow-2xl transition-transform duration-500 hover:scale-[1.02]"
                   >
@@ -163,22 +163,22 @@ const steps = [
   {
     number: '01',
     icon: UserPlus,
-    title: 'Créer un compte ou se connecter',
-    description: 'Ouvrez votre espace personnel sécurisé en quelques instants.',
+    title: 'Se connecter',
+    description: 'Connectez-vous à votre espace personnel sécurisé.',
     image: step1Image,
   },
   {
     number: '02',
-    icon: Globe2,
-    title: 'Choisir votre pays',
-    description: 'Indiquez le pays depuis lequel vous effectuez votre démarche.',
+    icon: UserPlus,
+    title: 'Créer un compte',
+    description: 'Créez votre compte en quelques instants.',
     image: step2Image,
   },
   {
     number: '03',
-    icon: Landmark,
-    title: 'Choisir votre ambassade',
-    description: 'Sélectionnez l\'ambassade ou le consulat compétent.',
+    icon: Globe2,
+    title: 'Choisissez votre pays et ambassade',
+    description: 'Sélectionnez votre pays et l\'ambassade compétente.',
     image: step3Image,
   },
   {
@@ -198,7 +198,7 @@ const steps = [
   {
     number: '06',
     icon: ListChecks,
-    title: 'Choisir un sous-service',
+    title: 'Sous-service',
     description: 'Précisez la nature exacte de votre demande.',
     image: step6Image,
   },
