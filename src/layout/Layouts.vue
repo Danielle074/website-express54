@@ -20,7 +20,6 @@
       <div class="container mx-auto text-center">
         <div class="flex items-center justify-center space-x-2 mb-4">
           <img :src="logo" alt="Express 54" class="h-8 w-auto" />
-          <span class="text-lg font-bold">Express <span style="color: #ff6200;">54</span></span>
         </div>
         <p class="text-sm text-gray-500">© 2026 Express 54. Tous droits réservés.</p>
         <div class="flex justify-center space-x-6 mt-3">
